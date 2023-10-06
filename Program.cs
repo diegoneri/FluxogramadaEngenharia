@@ -8,7 +8,7 @@ EstaSeMovendo = Console.ReadLine()!.ToUpper();
 
 if (EstaSeMovendo == RESPOSTA_SIM){
     Console.WriteLine("Deveria?");
-    Deveria = Console.ReadLine()!;
+    Deveria = Console.ReadLine()!.ToUpper();
 
     if (Deveria == RESPOSTA_SIM){
         Console.WriteLine("ÓTIMO");
